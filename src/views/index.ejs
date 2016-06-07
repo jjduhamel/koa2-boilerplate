@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ./styles %>
+    <% include ./scripts %>
+  </head>
+  <body>
+    <div id='content'></div>
+    <script>
+      document.getElementById('content').innerHTML = '<%= message %>';
+    </script>
+  </body>
+</html>
